@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    color: rgb(51 57 66);
+}
+
+header, footer {
+    overflow: hidden;
+}
+
+header ul, footer ul  { 
+    display: flex;
+    gap: 8%;
+    list-style: none;
+}
+
+ul button {
+    background: rgb(51 57 66);
+    color: rgb(255, 255, 255);
+    padding: 6px 50px;
+    font-size: 1rem;
+}
+
+main, .three {
+    display: flex;
+    height: 450px;
+}
+
+.three {
+    height: 375px;
+}
+
+.mainLeft{
+    padding: 5%;
+    background-color: rgb(241 243 245);
+}
+.mainRight{
+    background: rgb(241 243 245);
+}
+
+.mainLeft img{
+    height: 30%;
+    width: 45%;
+    margin: auto;
+    display: block;
+    background: rgb(241 243 245);
+}
+
+.mainRight img{
+    height: 100%;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.first p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.two div {
+    width: 29%;
+}
+
+.two span{
+    font-weight: 600;
+    border-top: 5px solid rgb(255 221 240);
+    padding-top: 15px;
+}
+
+.third p{
+    color: rgb(158 169 176);
+    font-style: italic;
+    margin: 2% 20% 10%;
+    text-align: center;
+}
+
+.history {
+    display: flex;
+    height: 650px;
+    border: 1px solid black;
+    background: rgb(241 243 245);
+}
+
+.historyTwo {
+    flex: 3;
+    padding: 2%;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding: 0 5%;
+}
+
+.historyTwo p{
+    font-size: 110%;
+    padding: 0 5%;
+}
+
+.historyOne{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.historyOne div {
+    flex: 1;
+    padding: 3% 5%;
+}
+
+.historyOne img{
+    height: 85%;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.historyOne span{
+    display: block;
+    text-align: center;
+}
+
+
+.who {
+    display: flex;
+    height: 850px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.atsuko {
+    margin: 3%;
+    display: flex;
+    padding: 2% 4%;
+    border: 1px solid lightgray;
+}
+
+.atsuko div {
+    flex: 1;
+}
+
+.atsuko div+div{
+    flex: 2;
+}
+
+.atsuko img{
+    height: 80%;
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.two img{
+    height: 25%;
+    width: 100%;
+}
+
+.whoTwo{
+    display: flex;
+    height: 80px;
+}
+
+.who  .two{
+    flex: 1;
+    margin: 0 5%;
+}
+
+.whoTwo .two {
+    flex-direction: column;
+}
+
+.newsletter {
+    display: flex;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.newsletter div {
+    padding: 2% 10%;
+    background: rgb(183 197 208);
+}
+
+.newsletter button {
+    padding: 2% 10%;
+    background: rgb(142 156 163);
+}
+
+.newsletter input {
+    padding: 2% 10%;
+}
+
+
+footer {
+    height: 250px;
+    border: 1px solid black;
+}
+
+main > div, section > div {
+    flex: 1;
+}
+
+.three {
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.who h3{
+    text-align: center;
+}
+
+.top {
+    display: flex;
+}
+
+.top div{
+    margin: 1%;
+    flex: 1;
+}
+
+.top div+div{
+    text-align: right;
+}
+
+.bottom span{
+    display: block;
+}
+
+.bottom {
+    border-top: 2px solid rgb(197 201 203);
+    margin: 2%;
+}
+
+@media (max-width: 1138px){
+    .newsletter div {
+        padding: 2% 6%;
+    }
+
+    .mainRight img {
+        height: 100%;
+        width: 75%;
+    }
+
+    header ul, footer ul{
+        gap: 7%;
+    }
+}
+
+@media (max-width: 1053px){
+    .newsletter div {
+        padding: 2% 5%;
+    }
+}
+
+@media (max-width: 1017px){
+    .newsletter div {
+        padding: 2% 3%;
+    }
+
+    header ul, footer ul{
+        gap: 6%;
+    }
+}
+
+@media (max-width: 908px){
+    .newsletter div {
+        padding: 2%;
+    }
+
+    header ul, footer ul{
+        gap: 5%;
+    }
+}
+
+@media (max-width: 874px){
+    main, .history {
+        flex-direction: column;
+        padding: 10%;
+        overflow: hidden;
+    }
+
+    .newsletter div{
+        padding: 1% 0;
+    }
+    
+}
