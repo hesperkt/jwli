@@ -238,7 +238,7 @@ main > div, section > div {
     margin: 2%;
 }
 
-@media (max-width: 1138px){
+@media (max-width: 1300px){
     .newsletter div {
         padding: 2% 6%;
     }
@@ -253,7 +253,7 @@ main > div, section > div {
     }
 }
 
-@media (max-width: 1053px){
+@media (max-width: 1200px){
     .newsletter div {
         padding: 2% 5%;
     }
@@ -261,7 +261,7 @@ main > div, section > div {
 
 @media (max-width: 1017px){
     .newsletter div {
-        padding: 2% 3%;
+        padding: 2%;
     }
 
     header ul, footer ul{
@@ -271,7 +271,7 @@ main > div, section > div {
 
 @media (max-width: 908px){
     .newsletter div {
-        padding: 2%;
+        padding: 1%;
     }
 
     header ul, footer ul{
