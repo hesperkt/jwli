@@ -1,4 +1,4 @@
-#JWLI Website
+JWLI Website
 
 Template website built for the an association based in Boston, MA centering the empowerment of Japanese women.
 
