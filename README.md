@@ -10,3 +10,5 @@ Link to project: [http://recruiters-love-seeing-live-demos.com/](https://hesperk
 
 Tech used: HTML, CSS
 
+# Lessons Learned
+Working with media queries and improving in my flex box usage was very useful!
