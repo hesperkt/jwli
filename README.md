@@ -1,4 +1,4 @@
-JWLI Website
+# JWLI Website
 
 Template website built for the an association based in Boston, MA centering the empowerment of Japanese women.
 
@@ -6,7 +6,7 @@ Template website built for the an association based in Boston, MA centering the 
 
 Link to project: [http://recruiters-love-seeing-live-demos.com/](https://hesperkt.github.io/jwli/)
 
-#How It's Made:
+# How It's Made:
 
 Tech used: HTML, CSS
 
